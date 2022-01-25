@@ -442,7 +442,7 @@ vendor/lib/libforkexecwrap.so
 vendor/lib/libfpspolicy.so
 vendor/lib/libGdmaScalerPipe.so
 vendor/lib/libged.so
-vendor/lib64/libged.sp
+vendor/lib64/libged.so
 vendor/lib/libgpu_aux.so
 vendor/lib64/libgpu_aux.so
 vendor/lib/libfposervice.so
