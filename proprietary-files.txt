@@ -280,8 +280,8 @@ vendor/bin/hw/power_native_test_v_2_0
 vendor/lib/hw/power.mt8163.so
 
 # Sensors
-vendor/lib/hw/sensors.mt8163.so:lib/libsensors.mt8163.so
-vendor/lib64/hw/sensors.mt8163.so:lib64/libsensors.mt8163.so
+vendor/lib/sensors.mt8163.so:lib/libsensors.mt8163.so
+vendor/lib64/sensors.mt8163.so:lib64/libsensors.mt8163.so
 
 # Thermal
 vendor/bin/hw/fireos.hardware.amazonthermal@1.0-service
