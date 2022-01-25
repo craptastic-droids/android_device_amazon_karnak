@@ -453,6 +453,7 @@ vendor/lib/libhevce_sb.ca7.android.so
 vendor/lib/libhwm.so
 vendor/lib64/libhwm.so
 vendor/lib/libhwminijail.so
+vendor/lib64/libhwminijail.so
 vendor/lib/libifcutils_mtk.so
 vendor/lib/libimageio.so
 vendor/lib/libimageio_FrmB.so
