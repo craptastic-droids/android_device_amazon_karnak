@@ -276,6 +276,7 @@ vendor/lib64/vendor.mediatek.hardware.radio@3.1.so
 # Power-Hardware
 vendor/bin/hw/power_native_test_v_2_0
 vendor/lib/hw/power.mt8163.so
+vendor/lib64/hw/power.mt8163.so
 
 # Sensors
 vendor/lib/sensors.mt8163.so:lib/libsensors.mt8163.so
