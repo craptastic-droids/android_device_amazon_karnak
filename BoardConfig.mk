@@ -33,15 +33,28 @@ TARGET_BOARD_PLATFORM_GPU := mali-720mp2
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
-# Architecture
-TARGET_ARCH := arm
-TARGET_CPU_VARIANT := cortex-a7
-TARGET_ARCH_VARIANT := armv7-a-neon
-TARGET_ARCH_VARIANT_CPU := cortex-a7
-TARGET_CPU_VARIANT:= cortex-a7
-TARGET_CPU_ABI := armeabi-v7a
-TARGET_CPU_ABI2 := armeabi
+# Misc
 TARGET_CPU_SMP := true
+TARGET_IS_64_BIT := true
+TARGET_SUPPORTS_64_BIT_APPS := true
+
+# Architecture
+TARGET_ARCH := arm64
+TARGET_ARCH_VARIANT := armv8-a
+TARGET_CPU_ABI := arm64-v8a
+TARGET_CPU_ABI2 :=
+TARGET_CPU_VARIANT := cortex-a53
+
+TARGET_2ND_ARCH := arm
+TARGET_2ND_ARCH_VARIANT := armv7-a-neon
+TARGET_2ND_CPU_ABI := armeabi-v7a
+TARGET_2ND_CPU_ABI2 := armeabi
+TARGET_2ND_CPU_VARIANT := cortex-a15
+
+# ABI lists
+TARGET_CPU_ABI_LIST := arm64-v8a,armeabi-v7a,armeabi
+TARGET_CPU_ABI_LIST_64_BIT := arm64-v8a
+TARGET_CPU_ABI_LIST_32_BIT := armeabi-v7a,armeabi
 
 # Kernel Config
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
@@ -65,7 +78,7 @@ TARGET_KERNEL_VARIANT_CONFIG := lineageos_karnak_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(shell pwd)/prebuilts/linaro/linux-x86/aarch64/aarch64-linux-gnu/bin/aarch64-linux-gnu-
 
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE += androidboot.selinux=disabled
 BOARD_KERNEL_CMDLINE += loop.max_part=7
 BOARD_KERNEL_CMDLINE += firmware_class.path=/vendor/firmware
 
