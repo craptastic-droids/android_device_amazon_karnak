@@ -20,6 +20,8 @@ vendor/lib/libaudiostream.so
 vendor/lib64/libaudiostream.so
 vendor/lib/libaudiostream_jni.so
 vendor/lib64/libaudiostream_jni.so
+vendor/lib/vendor.mediatek.hardware.audio@4.1.so
+vendor/lib64/vendor.mediatek.hardware.audio@4.1.so
 
 # Audio-Hardware
 vendor/lib/hw/audio.primary.mt8163.so
@@ -50,6 +52,7 @@ vendor/lib64/libcam.campipe.so
 vendor/lib/libcam.camshot.so
 vendor/lib64/libcam.camshot.so
 vendor/lib/libcam.client.so
+vendor/lib64/libcam.client.so
 vendor/lib/libcam.device1.so
 vendor/lib/libcam.exif.so
 vendor/lib64/libcam.exif.so
@@ -98,8 +101,8 @@ vendor/lib/libcam_platform.so
 vendor/lib64/libcam_platform.so
 vendor/lib/libcam.utils.so
 vendor/lib64/libcam.utils.so
--vendor/lib/libcam_utils.so
--vendor/lib64/libcam_utils.so
+vendor/lib/libcam_utils.so
+vendor/lib64/libcam_utils.so
 vendor/lib/libmtkcamera_client.so
 vendor/lib64/libmtkcamera_client.so
 vendor/lib/libcam.sdkclient.so
@@ -194,9 +197,13 @@ vendor/etc/init/vendor.mediatek.hardware.keymanage@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.power@2.0-init.rc
 vendor/etc/init/vendor.mediatek.hardware.power@2.0-service.rc
 vendor/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so
+vendor/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so
 vendor/lib/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.keymanage@1.0-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.keymanage@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.power@2.0-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.power@2.0-impl.so
 vendor/lib/libmtkcam_debugutils.so
 vendor/lib/libmtkcam_device1.so
 vendor/lib/libmtkcam_device3.so
@@ -230,6 +237,7 @@ vendor/lib64/libvcodec_utility.so
 vendor/lib/libMtkOmxAdpcmDec.so
 vendor/lib/libMtkOmxAdpcmEnc.so
 vendor/lib/libMtkOmxApeDec.so
+vendor/lib/libMtkOmxAlacDec.so
 vendor/lib/libMtkOmxFlacDec.so
 vendor/lib/libMtkOmxG711Dec.so
 vendor/lib/libMtkOmxGsmDec.so
@@ -249,15 +257,23 @@ vendor/lib/libmtk_drvb.so
 vendor/lib64/libmtk_drvb.so
 vendor/lib/vendor.mediatek.hardware.atci@1.0.so
 vendor/lib/vendor.mediatek.hardware.camera.ccap@1.0.so
+vendor/lib64/vendor.mediatek.hardware.camera.ccap@1.0.so
 vendor/lib/vendor.mediatek.hardware.camera.device@1.1.so
+vendor/lib64/vendor.mediatek.hardware.camera.device@1.1.so
 vendor/lib/vendor.mediatek.hardware.dfps@1.0.so
 vendor/lib/vendor.mediatek.hardware.keymanage@1.0.so
+vendor/lib64/vendor.mediatek.hardware.keymanage@1.0.so
 vendor/lib/vendor.mediatek.hardware.lbs@1.0.so
 vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.1.so
+vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so
+vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 vendor/lib/vendor.mediatek.hardware.power@2.0.so
+vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 vendor/lib/vendor.mediatek.hardware.radio@3.0.so
+vendor/lib64/vendor.mediatek.hardware.radio@3.0.so
+vendor/lib64/vendor.mediatek.hardware.radio@3.1.so
 
 # Power-Hardware
 vendor/bin/hw/power_native_test_v_2_0
