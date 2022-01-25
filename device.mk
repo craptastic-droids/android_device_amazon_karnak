@@ -129,7 +129,7 @@ PRODUCT_COPY_FILES += \
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
-		$(LOCAL_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/media_codecs.xml \
+    $(LOCAL_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissionsmedia_codecs.xml \
     $(LOCAL_PATH)/configs/media/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     $(LOCAL_PATH)/configs/media/media_codecs_fosExt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_fosExt.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2.xml \
@@ -177,7 +177,7 @@ PRODUCT_PACKAGES += \
 
 # Suspend
  PRODUCT_PACKAGES += \
-     libsuspend
+    libsuspend
 
 # Other
 PRODUCT_PACKAGES += \
@@ -211,8 +211,8 @@ PRODUCT_COPY_FILES += \
 
 # Audio Shim
 PRODUCT_PACKAGES += \
-   libaudio_shim \
-   audiofix
+    libaudio_shim \
+    audiofix
 
 # Protobuf
 PRODUCT_PACKAGES += \
@@ -221,13 +221,13 @@ PRODUCT_PACKAGES += \
 
 # Libshims
 PRODUCT_PACKAGES += \
-     libshim_graphic_buffer \
-     libshim_nvram
+    libshim_graphic_buffer \
+    libshim_nvram
 
 # VNDK
 PRODUCT_PACKAGES += \
-     vndk_package \
-	 libstdc++.vendor
+    vndk_package \
+    libstdc++.vendor
 
 PRODUCT_PACKAGES += \
     libladder \
