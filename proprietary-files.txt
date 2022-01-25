@@ -247,8 +247,6 @@ vendor/lib/libMtkOmxVorbisEnc.so
 vendor/lib/libClearMotionFW.so
 vendor/lib/libvcodec_cap.so
 vendor/lib/libmtkproperty.so
-vendor/lib/libmtkrillog.so
-vendor/lib/libmtkrilutils.so
 vendor/lib/libmtkshifter_vendor.so
 vendor/lib64/libmtkshifter.so
 vendor/lib/libmtksysutils.so
@@ -328,6 +326,7 @@ vendor/bin/hw/fireos.hardware.connectivity.networkpower@1.0-service
 vendor/bin/hw/fireos.hardware.fireosdha@1.0-service
 vendor/bin/hw/fireos.hardware.idme@1.0-service
 vendor/bin/hw/rilproxy
+vendor/bin/hw/mtkfusionrild
 vendor/bin/idme
 vendor/bin/mtkcam-debug
 vendor/bin/mtkrild
@@ -388,7 +387,6 @@ vendor/etc/init/securetime.rc
 vendor/etc/init/wifi_log_levels.rc
 vendor/etc/init/wlan_assistant.rc
 vendor/etc/mtk_omx_core.cfg
-vendor/etc/permissions/media_codecs.xml
 vendor/etc/powerscntbl.cfg
 vendor/etc/power_whitelist_cfg.xml
 vendor/etc/slp_conf
@@ -511,6 +509,17 @@ vendor/lib/libratconfig.so
 vendor/lib/librilmtk.so
 vendor/lib/librilproxy.so
 vendor/lib/librilproxyutils.so
+vendor/lib/libmtkrillog.so
+vendor/lib/libmtkrilutils.so
+vendor/lib/libreference-ril.so
+vendor/lib/libril.so
+vendor/lib64/libmtk-ril.so 
+vendor/lib64/libmtkrillog.so 
+vendor/lib64/libmtkrilutils.so 
+vendor/lib64/libreference-ril.so 
+vendor/lib64/libril.so 
+vendor/lib64/librilfusion.so 
+vendor/lib64/librilutils.so 
 vendor/lib/libspeech_enh_lib.so
 vendor/lib64/libspeech_enh_lib.so
 vendor/lib/libSwJpgCodec.so
